@@ -1,0 +1,16 @@
+{
+  "name": "Next Level Training",
+  "short_name": "NL Training",
+  "start_url": "/next-level-training-app/",
+  "display": "standalone",
+  "background_color": "#f6f4ee",
+  "theme_color": "#234236",
+  "icons": [
+    {
+      "src": "mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
