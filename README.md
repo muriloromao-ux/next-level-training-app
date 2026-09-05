@@ -38,4 +38,10 @@ npm run dev
 npm run build
 ```
 
-O `vite.config.ts` já está preparado com o caminho base `/next-level-training-app/` para facilitar um preview via GitHub Pages no futuro.
+O `vite.config.ts` já está preparado com o caminho base `/next-level-training-app/`.
+
+## Preview sem build
+
+A pasta `docs/` contém uma versão estática e navegável do conceito, preparada para ser usada como preview no GitHub Pages sem depender do build do React.
+
+Para publicar temporariamente pelo GitHub Pages, use **Settings → Pages → Deploy from a branch → main → /docs**.
