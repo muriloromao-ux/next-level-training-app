@@ -94,4 +94,7 @@ addEventListener('click',e=>{
 
 document.querySelector('[data-exercise-search]')?.addEventListener('input',renderLibrary)
 document.querySelector('[data-exercise-modal]')?.addEventListener('click',e=>{if(e.target.matches('[data-exercise-modal]'))closeModal()})
-showStandalone('welcome')
+
+// O preview publicado abre direto dentro do produto para deixar claro que isto é um app completo.
+// A landing/onboarding continuam no mesmo HTML e podem ser acessados pelos CTAs quando necessário.
+showApp('home')
