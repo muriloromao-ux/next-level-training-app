@@ -1,29 +1,34 @@
 # Next Level Training — Front-end Prototype
 
-Protótipo navegável da experiência da **Next Level Training**, pensado para substituir gradualmente a experiência atual de consultoria em plataforma de terceiros.
+Protótipo navegável e mobile-first da experiência da **Next Level Training**.
 
-## Objetivo desta versão
+## O que já existe nesta versão
 
-Esta primeira fase é **somente front-end**. Não há banco de dados, autenticação real, pagamentos ou backend.
-
-Fluxos incluídos:
-- Tela de boas-vindas;
-- Onboarding com questionário de perfil;
-- Dashboard do aluno;
-- Treino do dia;
-- Lista de exercícios e conclusão de treino;
-- Progresso e consistência;
-- Comparação entre o plano Essencial (R$47/mês) e Personal (R$200/mês);
+- Boas-vindas e onboarding com 7 etapas;
+- Dashboard completo do aluno;
+- Programa de hipertrofia com 4 treinos semanais;
+- 24 exercícios de exemplo distribuídos entre os treinos;
+- Tela de treino com progresso e conclusão de exercícios;
+- Detalhe do exercício com prescrição, descanso e registro de séries/carga/repetições;
+- Biblioteca de exercícios com busca e filtros;
+- Área de progresso com consistência, volume, recordes e calendário;
+- Comparação dos planos Essencial (R$47/mês) e Personal (R$200/mês);
 - Perfil e preferências;
-- Layout mobile-first com adaptação para desktop.
+- Navegação mobile e desktop;
+- Identidade visual lifestyle em laranja suave, creme e grafite.
 
-## Stack
+## Importante
+
+Esta fase é **somente front-end/protótipo**. Não há banco de dados, autenticação real, pagamentos ou backend.
+
+## Stack principal
 
 - React
 - TypeScript
 - Vite
 - CSS
-- Lucide React
+
+O preview publicado no GitHub Pages usa a versão estática em `docs/`, criada para validação visual e de fluxo sem depender de backend.
 
 ## Rodar localmente
 
@@ -38,10 +43,8 @@ npm run dev
 npm run build
 ```
 
-O `vite.config.ts` já está preparado com o caminho base `/next-level-training-app/`.
+## GitHub Pages
 
-## Preview sem build
+O repositório está preparado para publicar o preview a partir de:
 
-A pasta `docs/` contém uma versão estática e navegável do conceito, preparada para ser usada como preview no GitHub Pages sem depender do build do React.
-
-Para publicar temporariamente pelo GitHub Pages, use **Settings → Pages → Deploy from a branch → main → /docs**.
+`main` → `/docs`
